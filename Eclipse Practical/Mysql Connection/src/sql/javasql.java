@@ -1,3 +1,4 @@
+
 package sql;
 
 import java.sql.Connection;
@@ -105,6 +106,7 @@ public class javasql {
 //		st.executeUpdate(sql);
 //		System.out.print("New column add");
 		
+	
 		
 		
 						//.......Single data show ...........//
@@ -117,11 +119,14 @@ public class javasql {
 //		}
 		
 		
-		Connection conn =DriverManager.getConnection("jdbc:mysql://localhost/adit","root","");
-		String sql = "Alter table nsti drop age";
-		Statement st = conn.createStatement();
-		st.executeUpdate(sql);
-		System.out.print("Drop column");
+//		Connection conn =DriverManager.getConnection("jdbc:mysql://localhost/adit","root","");
+//		String sql = "Alter table nsti drop age";
+//		Statement st = conn.createStatement();
+//		st.executeUpdate(sql);
+//		System.out.print("Drop column");
+		
+		
+		
 		
 		
 		
