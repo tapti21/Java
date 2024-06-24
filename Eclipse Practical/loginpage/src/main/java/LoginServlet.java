@@ -42,7 +42,7 @@ public class LoginServlet extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/login", "root", "");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/loginpage", "root", "");
 			
 			PreparedStatement ps = con.prepareStatement("insert into login values (?,?)");
 			
@@ -55,7 +55,7 @@ public class LoginServlet extends HttpServlet {
 			
 			
 		}catch(Exception e) {
-			System.out.println(e);
+			System.out.println("something error");
 		}
 		
 		
