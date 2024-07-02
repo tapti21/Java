@@ -4,181 +4,21 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <title> Heritage Website</title> 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-}
-::selection{
-  color: #000;
-  background: #fff;
-}
-nav{
-  position: fixed;
-  background: #1b1b1b;
-  width: 100%;
-  padding: 10px 0;
-  z-index: 12;
-}
-nav .menu{
-  max-width: 1250px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-}
-.menu .logo a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 35px;
-  font-weight: 600;
-}
-.menu ul{
-  display: inline-flex;
-}
-.menu ul li{
-  list-style: none;
-  margin-left: 7px;
-}
-.menu ul li:first-child{
-  margin-left: 0px;
-}
-.menu ul li a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 15px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-.menu ul li a:hover{
-  background: #fff;
-  color: black;
-}
-.img{
-  background: url('https://images.squarespace-cdn.com/content/v1/62fbf293c4912c5514ac3b2a/30bc4238-ed9e-491e-9381-025cb642c5b1/adam-wilson-ktDODr-3tvY-unsplash.jpg')no-repeat;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-.img::before{
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.4);
-}
-.center{
-  position: absolute;
-  top: 52%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px;
-  text-align: center;
-}
-.center .title{
-  color: #fff;
-  font-size: 55px;
-  font-weight: 600;
-}
-.center .sub_title{
-  color: #fff;
-  font-size: 52px;
-  font-weight: 600;
-}
-.center .btns{
-  margin-top: 20px;
-}
-.center .btns button{
-  height: 55px;
-  width: 170px;
-  border-radius: 5px;
-  border: none;
-  margin: 0 10px;
-  border: 2px solid white;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0 10px;
-  cursor: pointer;
-  outline: none;
-  transition: all 0.3s ease;
-}
-.center .btns button:first-child{
-  color: #fff;
-  background: none;
-}
-.btns button:first-child:hover{
-  background: white;
-  color: black;
-}
-.center .btns button:last-child{
-  background: white;
-  color: black;
-}
-
-
-
-.center1 .btns1{
-  margin-top: 20px;
-  }
-  .center1 .btns1 button{
-  height: 55px;
-  width: 170px;
-  border-radius: 5px;
-  border: none;
-  margin: 0 10px;
-  border: 2px solid black;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0 10px;
-  cursor: pointer;
-  outline: none;
-  transition: all 0.3s ease;
-}
-
-.center1{
-  position: absolute;
-  top: 110%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 20px; 
- text-align: center;
- }
- 
-.btns1 button:first-child:hover{
-  background: grey;
-  color: black;
-}
-.center1 .btns1 button:last-child{
-  background: grey;
-  color: black;
-}  
- 
-}
-    </style>
+    <link href="style.css" rel="stylesheet"> 
    </head>
 <body>
   <nav>
     <div class="menu">
       <div class="logo">
-        <a href="#">Heritage</a>
+        <a href="#">Culture & Heritage</a>
       </div>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="#">Culture & Heritage</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Feedback</a></li>
       </ul>
@@ -195,7 +35,7 @@ nav .menu{
   </div>
    <div class = "center1">
   <div class="btns1">
-      <button>Services</button>
+      <button>Culture & Heritage</button>
     </div>
     
     </div>
@@ -204,59 +44,7 @@ nav .menu{
     
     
             
-    <style type="text/css">
-*{
- margin: 0px;
- padding: 0px;
-}
-body{
- font-family: arial;
-}
-.main{
-
- margin: 9%;
-}
-
-.card{
-     width: 10%;
-     display: inline-block;
-     box-shadow: 2px 2px 20px black;
-     border-radius: 5px; 
-     margin: 1%;
-    }
-
-.image img{
-  width: 100%;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  
-
- 
- }
-
-
-h1{
-  font-size: 20px;
-   text-align: center;
- }
-
-button{
-  margin-top: 1px;
-  margin-bottom: 8px;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding:1px;
-  margin-left: 18px; 
-}
-button:hover{
-  background-color: black;
-  color: white;
-  transition: .5s;
-  cursor: pointer;
-}
-
-</style>
+    
 <body>
 
 <div class="main">
@@ -280,7 +68,7 @@ button:hover{
 <div class="card">
 
 <div class="image">
-   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+   <img src="https://media.istockphoto.com/id/537988165/photo/varanasi.jpg?s=2048x2048&w=is&k=20&c=kTj8njrwskmoiIzifXa71ch8uZjn2gbAe_RrVxRVwDE=">
 </div>
 <div class="title">
  <h1>
@@ -294,7 +82,7 @@ Banaras</h1>
 <div class="card">
 
 <div class="image">
-   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+   <img src="https://images.pexels.com/photos/5608221/pexels-photo-5608221.jpeg?auto=compress&cs=tinysrgb&w=600">
 </div>
 <div class="title">
  <h1>
@@ -308,6 +96,116 @@ Agra</h1>
 <div class="card">
 
 <div class="image">
+   <img src="https://images.pexels.com/photos/20793879/pexels-photo-20793879/free-photo-of-ceremony-in-sri-sri-krishna-balaram-mandir-in-jaipur-india.jpeg?auto=compress&cs=tinysrgb&w=600">
+</div>
+<div class="title">
+ <h1>
+Vrandavan</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+</div>
+<div class="title">
+ <h1>
+Delhi</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://images.pexels.com/photos/3408354/pexels-photo-3408354.jpeg?auto=compress&cs=tinysrgb&w=600">
+</div>
+<div class="title">
+ <h1>
+Manali</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
    <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
 </div>
 <div class="title">
@@ -372,6 +270,175 @@ Kanpur</h1>
 <button>Read More...</button>
 </div>
 <!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+</div>
+<div class="title">
+ <h1>
+Kanpur</h1>
+</div>
+<button>Read More...</button>
+</div>
+<!--cards -->
+
+
+
+
+
+
+
+<Section id="welcome_Sec">
+        <div class="container">
+            <h2><span>Where science meets the sacred!
+            </span></h2>
+            <p>Witness the grand Architecture! How about taking your kids on an exploration of India's heritage this holiday season?</p>
+        </div>
+    </Section>
+
+    <Section id="slides_parent">
+        <div class="container">
+            <div class="slides">
+                <div class="slide_1">
+                    <div class="slide_info">
+                        <p>Modhera Sun Temple </p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_2">
+                    <div class="slide_info">
+                        <p>Adi Annamalai temple</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_3">
+                    <div class="slide_info">
+                        <p>Western Ghats</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_4">
+                    <div class="slide_info">
+                        <p>Red Fort</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_5">
+                    <div class="slide_info">
+                        <p>Chhatrapati Shivaji Terminus </p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_6">
+                    <div class="slide_info">
+                        <p>Bandipur National Park</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_7">
+                    <div class="slide_info">
+                        <p>Ganga Aarti</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+
 
 
 
